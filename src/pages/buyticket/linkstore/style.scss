@@ -1,0 +1,54 @@
+#buyticket{
+    padding-bottom: 3rem;
+    .buytic-mvserch{
+        width: 100%;
+        height: 1rem;
+        background: #ccc;
+    }
+    .buytic-select{
+        width: 100%;
+        height: 1rem;
+        background: #666;
+    }
+    .buytic-stors{
+        width: 100%;
+        padding: .3rem .1rem;
+        .buytic-storeitem{
+            width: 100%;
+            // height: 2rem;
+            border-bottom: 1px solid #aaa;
+            padding: .2rem 0;
+            .buytic-storename{
+                display: flex;
+                justify-content: space-between;
+                font-size: .32rem;
+                color: #666;
+                span{
+                    &:nth-last-of-type(1){
+                        color: #ff8600;
+                    }
+                }
+            }
+            .buytic-version{
+                p{
+                    font-size: .30rem;
+                    color: #666;
+                    line-height: .6rem;
+                   
+                }
+                .buytic-type{
+                    display: flex;
+                    span{
+                        display: inline-block;
+                        padding: .05rem;
+                        color: #666;
+                        text-align: center;
+                        line-height: .4rem;
+                        margin-right: .1rem;
+                        border: 1px solid #ccc;
+                    }
+                }
+            }
+        }
+    }
+}

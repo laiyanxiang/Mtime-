@@ -1,0 +1,172 @@
+#mvstore{
+    background: #f6f6f6;
+    .cinemaDetial{
+        width: 100%;
+        background: #fff;
+        .cinema-title{
+            padding: .3rem;
+            display: flex;
+            .cinema-title-left{
+                h1{
+                    font-size: .34rem;
+                    color: #333;
+                    font-weight: bold;
+                }
+                .cinema-title-left-version{
+                    display: flex;
+                    img{
+                        width: .42rem;
+                        height: .42rem;  
+                    }
+                }
+                .cinema-title-right{
+                    display: flex;
+                    span{
+                        &:nth-of-type(1){
+                            display: inline-block;
+                            height: .52rem;
+                            width: 0;
+                            border-left: 1px solid #ccc;
+                        }
+                        &:nth-of-type(2){
+                            background: url('https://static1.mtime.cn/html5/20190531185056/images/2014/i_tel_01.png') no-repeat center center;
+                            width: .4rem;
+                            height: .52rem;
+                            display: inline-block;
+                        }
+                        &:nth-of-type(3){
+                            display: inline-block;
+                            height: .52rem;
+                            width: 0;
+                            border-left: 1px solid #ccc;
+                        }
+                        &:nth-of-type(4){
+                            background: url('https://static1.mtime.cn/html5/20190531185056/images/2014/i_address_01.png') no-repeat center center;
+                            width: .4rem;
+                            height: .52rem;
+                            display: inline-block;
+                        }
+                    }
+                }
+            }
+        }
+        .cinema-movice{
+            width: 100%;
+            height: 3.60rem;
+            overflow-x:auto;
+            background: #666;
+            position: relative;
+            
+            .movice-list{
+                height: 100%;
+                display: flex;
+                width: 18rem;
+                align-items: center;
+                li{
+                    width: 1.8rem;
+                    margin-right: .5rem;
+                    img{
+                        width: 1.8rem;
+                        height: 2.48rem;
+                        &.selected{
+                            position: relative;
+                            z-index: 10;
+                            box-shadow: 5px 6px 7px #333;
+                        }
+                    }
+                    p{
+                        font-size: .28rem;
+                        color: #fff;
+                        text-align: center;
+                        overflow: hidden;
+                    }
+                }
+            }
+           
+        }
+        .cinema-movice-title{
+            width: 100%;
+            padding: .3rem 0 ;
+            background: #fff;
+            text-align: center;
+            h2{
+                width: 100%;
+                text-align: center;
+                font-size: .34rem;
+                color: #333;
+                font-weight: bold;
+            }
+            p{
+                width: 100%;
+                text-align: center;
+               
+                font-size: .28rem;
+                color: #666;
+               
+            }
+        }
+        
+    }
+    .showtime{
+        width: 100%;
+        .scroll-width{
+            width: 100%;
+            height: 1rem;
+            background: #fff;
+        }
+        .showtime-title{
+            width: 100%;
+            display: flex;
+            overflow-x:auto;
+            width: 17rem;
+           
+            line-height: 1rem;
+            border-bottom:1px solid #ccc; 
+            margin-top: .3rem;
+            li{
+                font-size: .32rem;
+                // margin-right:.3rem; 
+                padding:  0 .5rem;
+                &.active{
+                    color: #ff8600;
+                    border-bottom: 2px solid #ff8600;
+                }
+            }
+        }
+        .showtime-list{
+            margin-top: .5rem;
+            .showtime-item{
+                display: flex;
+                padding: .3rem;
+                justify-content: space-between; 
+                background: #fff;
+                border-bottom: 1px solid #ccc;
+                
+                h2{
+                    font-size: .42rem;
+                    color: #333;
+                    font-weight: bold;
+                }
+                .show-version{
+                    font-size: .32rem;
+                    color: #666;   
+                    text-align: center;
+                }
+                .price{
+                    font-size: .32rem;
+                    color: #ff8600;
+                }
+                .showtime-buy{
+                    width: 1.80rem;
+                    height: .66rem;
+                    text-align: center;
+                    line-height: .66rem;
+                    background: #ff8600;
+                    border-radius:.33rem; 
+                    color: #fff;
+                    font-size: .32rem;
+                }
+            }
+        }
+    }
+}

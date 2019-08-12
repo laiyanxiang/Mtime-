@@ -1,0 +1,44 @@
+.header{
+    width: 100%;
+    height: 1.03rem;
+    background: #1c2635;
+    .nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        li{
+            span{
+                display: block;
+                height: 100%;
+                line-height: .97rem;
+                color: #bbb;
+                font-size: .30rem
+            }
+            &.nav-list{
+                border-bottom:5px solid #fff; 
+                span{
+                    display: block;
+                    color: #fff;
+                     
+                }
+            }
+        }
+        .logo{
+            span{
+                img{
+                    display: block;
+                    height: .43rem;
+                    width: 1.3rem; 
+                }
+            }
+        }
+        .login-icon{
+            span{
+                img{
+                    width: .35rem;
+                    height: .43rem;
+                }
+            }
+        }
+    }
+}

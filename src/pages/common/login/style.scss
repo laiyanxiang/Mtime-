@@ -1,0 +1,133 @@
+#login{
+    background: #f6f6f6;
+    .login-logo{
+        width: 1.34rem;
+        height: .42rem;
+        background: url(//static1.mtime.cn/html5/20190531185056/images/2014/logo_mtime.png) no-repeat;
+        background-size: contain;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .login-form{
+        width: 100%;
+        
+        .login-user{
+            width: 100%;
+            height: 1.20rem;
+            background: url('https://static1.mtime.cn/html5/20190531185056/images/2014/i_user.png') no-repeat .3rem center;
+            background-size: .44rem .54rem;
+            padding-left: 1.32rem;
+            background-color: #fff;
+            input{
+                width: 100%;
+                height: 1.2rem;
+                font-size: .32rem;
+                color: #666;
+                line-height: 1.2rem;
+                border: none;
+                border-bottom: 1px solid #aaa;
+            }
+        }
+        .login-password{
+            width: 100%;
+            height: 1.20rem;
+            background: url('https://static1.mtime.cn/html5/20190531185056/images/2014/i_password.png') no-repeat .3rem center;
+            background-size: .44rem .54rem;
+            padding-left: 1.32rem;
+            position: relative;
+            background-color: #fff;
+            input{
+                width: 100%;
+                height: 1.2rem;
+                font-size: .32rem;
+                color: #666;
+                line-height: 1.2rem;
+                border: none;
+                border-bottom: 1px solid #aaa;
+            }
+            p{
+                height: 1.2rem;
+                font-size: .32rem;
+                color: #666;
+                line-height: 1.2rem;
+                border: none;
+                border-bottom: 1px solid #aaa;
+                position: absolute;
+                right: .3rem;
+                top: .04rem;
+                margin-right: .3rem;
+                border: none;
+                color: #1e7dd7;
+            }
+        }
+    }
+    .login-go{
+        width: 6.78rem;
+        height: 1rem;
+        background: #1e7dd7;
+        border: 1px solid #1e7dd7;
+        margin:.5rem .3rem 0;
+        color: #fff;
+        line-height: 1rem;
+        font-size: .42rem;
+        text-align: center;
+        border-radius:.5rem; 
+
+    }
+    .login-regist{
+        display: flex;
+        justify-content: space-between;
+        padding: .3rem;
+        font-size: .32rem;
+        color: #666;
+        p{
+            &:nth-of-type(1){
+                color: #1e7dd7;
+            }
+        }
+    }
+    .other-login{
+        margin-left: .3rem;
+        display: flex;
+        text-align: center;
+        span{
+            color: #666;
+            font-size: .28rem;
+            
+            &:nth-of-type(1){
+                display: inline-block;
+                width: 2.5rem;
+                border-bottom:1px solid #666; 
+                
+            }
+            &:nth-of-type(3){
+                display: inline-block;
+                width: 2.5rem;
+                border-bottom:1px solid #666; 
+            }
+        }
+    }
+    .other-login-link{
+        display: flex;
+        justify-content: center;
+            .bo{
+                background: url('https://static1.mtime.cn/html5/20190531185056/images/2014/o_sina.png') no-repeat;
+                background-size:cover; 
+                width: 1.32rem;
+                height: 1.32rem;
+                margin: .3rem;
+            }
+            .qq{
+                background: url('https://static1.mtime.cn/html5/20190531185056/images/2014/o_qq.png') no-repeat;
+                background-size:cover; 
+                width: 1.32rem;
+                height: 1.32rem;
+                margin: .3rem;
+            }
+           
+        
+     
+            
+        
+    }
+}
